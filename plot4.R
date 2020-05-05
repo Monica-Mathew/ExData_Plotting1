@@ -21,6 +21,6 @@ lines(datetime, submeter2, type="l", col="red")
 lines(datetime, submeter3, type="l", col="blue")
 legend("topright", c("Sub metering 1", "Sub metering 2", "Sub metering 3"), lty=, lwd=2.5, col=c("black", "red", "blue"), bty="o")
 
-plot(datetime, globalReactivePower, type="l", xlab="datetime", ylab="Global rReactive Power")
+plot(datetime, globalReactivePower, type="l", xlab="datetime", ylab="Global Reactive Power")
 
 dev.off()#dev. off shuts down the specified (by default the current) device
